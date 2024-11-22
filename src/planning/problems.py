@@ -48,7 +48,8 @@ class PlanarProblem(object):
 
         # Check that x and y are within the extents of the map.
         # BEGIN QUESTION 1.2
-
+        "*** REPLACE THIS LINE ***"
+        raise NotImplementedError
         # END QUESTION 1.2
 
         # The units of the state are meters and radians. We need to convert the
@@ -66,7 +67,8 @@ class PlanarProblem(object):
         # integers. Then, index into self.permissible_region, remembering that
         # the zeroth dimension is the height.
         # BEGIN QUESTION 1.2
-
+        "*** REPLACE THIS LINE ***"
+        raise NotImplementedError
         # END QUESTION 1.2
 
         # Convert the units back from pixels to meters for the caller

@@ -88,7 +88,8 @@ class Roadmap(object):
         """
         # Hint: call the check_edge_validity method from above.
         # BEGIN QUESTION 1.3
-
+        "*** REPLACE THIS LINE ***"
+        raise NotImplementedError
         # END QUESTION 1.3
         return weighted_edges
 

@@ -55,8 +55,8 @@ def rrt(rm, start, goal, bias=0.05, eta=0.5, max_iter=1000):
         # 2. get the nearest neighbor from the tree
         # 3. connect the new sample to the nearest neighbor with step size eta
         # BEGIN SOLUTION "QUESTION 5" ALT="raise NotImplementedError"
-
- 
+        "*** REPLACE THIS LINE ***"
+        raise NotImplementedError
         # END SOLUTION
 
         # increase counter by 1
@@ -66,7 +66,8 @@ def rrt(rm, start, goal, bias=0.05, eta=0.5, max_iter=1000):
         # 2. if so, add the sample and edge to the tree
         # 3. finally, check whether the goal has been reached and if so, terminate the search
         # BEGIN SOLUTION "QUESTION 5" ALT="raise NotImplementedError"
-
+        "*** REPLACE THIS LINE ***"
+        raise NotImplementedError
         # END SOLUTION
         
     if x_goal_id is None:
