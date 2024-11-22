@@ -88,9 +88,7 @@ class Roadmap(object):
         """
         # Hint: call the check_edge_validity method from above.
         # BEGIN QUESTION 1.3
-        uv = weighted_edges[:, :2].astype(int)
-        free = np.array([self.check_edge_validity(u, v) for u, v in uv], dtype=bool)
-        weighted_edges = weighted_edges[free, :]
+
         # END QUESTION 1.3
         return weighted_edges
 

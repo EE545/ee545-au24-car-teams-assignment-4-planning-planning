@@ -48,11 +48,7 @@ class PlanarProblem(object):
 
         # Check that x and y are within the extents of the map.
         # BEGIN QUESTION 1.2
-        xmin, xmax = self.extents[0, :]
-        ymin, ymax = self.extents[1, :]
-        within_x = (xmin <= x) & (x < xmax)
-        within_y = (ymin <= y) & (y < ymax)
-        valid = within_x & within_y
+
         # END QUESTION 1.2
 
         # The units of the state are meters and radians. We need to convert the
@@ -70,10 +66,7 @@ class PlanarProblem(object):
         # integers. Then, index into self.permissible_region, remembering that
         # the zeroth dimension is the height.
         # BEGIN QUESTION 1.2
-        yind = y.astype(int)
-        xind = x.astype(int)
-        coll_free = self.permissible_region[yind[valid], xind[valid]]
-        valid[valid] = coll_free
+
         # END QUESTION 1.2
 
         # Convert the units back from pixels to meters for the caller
